@@ -17,10 +17,33 @@
 
   <body class="container">
     <div class="sidebar">
-      <button class="nav-btn"></button>
+      <div class="navigation__container">
+        <button class="navigation__button js-toggle-nav">
+          <span class="navigation__button__line"></span>
+        </button>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item js-toggle-nav">
+              <a href="#home" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item js-toggle-nav">
+              <a href="#features" class="navigation__link">Features</a>
+            </li>
+            <li class="navigation__item js-toggle-nav">
+              <a href="#testimonials" class="navigation__link">Testimonials</a>
+            </li>
+            <li class="navigation__item js-toggle-nav">
+              <a href="#real_estates" class="navigation__link">Real estates</a>
+            </li>
+            <li class="navigation__item js-toggle-nav">
+              <a href="#gallery" class="navigation__link">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
-    <header class="header">
+    <header class="header" id="home">
       <img src="img/logo.png" alt="Nexter logo" class="header__logo" />
       <h3 class="heading-3">Your own home:</h3>
       <h1 class="heading-1">The ultimate personal freedom</h1>
@@ -57,14 +80,15 @@
       </div>
     </div>
 
-    <section class="features">
+    <section class="features" id="features">
       <div class="feature">
         <svg class="feature__icon">
           <use xlink:href="img/sprite.svg#icon-global"></use>
         </svg>
         <h4 class="heading-4 heading-4--dark">World's best luxury homes</h4>
         <p class="feature__text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          distinctio necessitatibus pariatur voluptatibus.
         </p>
       </div>
       <div class="feature">
@@ -73,7 +97,8 @@
         </svg>
         <h4 class="heading-4 heading-4--dark">Only the best properties</h4>
         <p class="feature__text">
-          Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.
+          Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus
+          rerum sed a eligendi aut quia.
         </p>
       </div>
 
@@ -83,7 +108,8 @@
         </svg>
         <h4 class="heading-4 heading-4--dark">All homes in in top locations</h4>
         <p class="feature__text">
-          Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.
+          Tenetur distinctio necessitatibus pariatur voluptatibus quidem
+          consequatur harum.
         </p>
       </div>
 
@@ -93,7 +119,8 @@
         </svg>
         <h4 class="heading-4 heading-4--dark">New home in one week</h4>
         <p class="feature__text">
-          Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit
+          amet consectetur adipisicing elit.
         </p>
       </div>
 
@@ -103,7 +130,8 @@
         </svg>
         <h4 class="heading-4 heading-4--dark">Top 1% realtors</h4>
         <p class="feature__text">
-          Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.
+          Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio
+          necessitatibus pariatur voluptatibus.
         </p>
       </div>
 
@@ -113,12 +141,13 @@
         </svg>
         <h4 class="heading-4 heading-4--dark">Secure payments on nexter</h4>
         <p class="feature__text">
-          Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae.
+          Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia
+          quae.
         </p>
       </div>
     </section>
 
-    <div class="story__pictures">
+    <div class="story__pictures" id="testimonials">
       <img
         src="img/story-1.jpeg"
         alt="Couple with new house"
@@ -133,12 +162,14 @@
         &ldquo;The best decision of our lives&rdquo;
       </h2>
       <p class="story__text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        distinctio necessitatibus pariatur voluptatibus. Quidem consequatur
+        harum volupta!
       </p>
       <button class="btn">Find your own home</button>
     </div>
 
-    <section class="homes">
+    <section class="homes" id="real_estates">
       <div class="home">
         <img src="img/house-1.jpeg" alt="House 1" class="home__img" />
         <svg class="home__like">
@@ -338,7 +369,7 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <figure class="gallery__item gallery__item--1">
         <img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img" />
       </figure>
@@ -423,8 +454,12 @@
         </li>
       </ul>
       <p class="copyright">
-        &copy; Copyright 2023. This project is created by Muhammad Huzaifa. Original design by Jonas Schmedtmann
+        &copy; Copyright 2023. This project is created by Muhammad Huzaifa.
+        Original design by Jonas Schmedtmann
       </p>
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/script.js"></script>
   </body>
 </html>
