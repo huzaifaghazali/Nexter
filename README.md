@@ -23,3 +23,10 @@ This command will compile the Sass files, prefix the CSS with vendor-specific pr
 * HTML5 - Markup language for creating the structure of the web page.
 * SCSS - CSS preprocessor for writing cleaner and more maintainable stylesheets.
 
+## Pictures
+
+| Desktop Screens                             | Tablet & Mobile Screens                     |
+|:-------------------------------------------:|:-------------------------------------------:|
+| ![1](https://github.com/huzaifaghazali/Nexter/assets/63412385/959abdf1-3b01-4320-8c5e-815db1520d8a)  | ![2](https://github.com/huzaifaghazali/Nexter/assets/63412385/8920929b-60e7-45c7-bdbc-c81a63e56e64) |
+
+
